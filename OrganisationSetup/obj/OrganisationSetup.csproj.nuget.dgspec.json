@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GITHUB SOFT\\ERP\\ERP\\OrganisationSetup\\OrganisationSetup.csproj": {}
+    "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj": {}
   },
   "projects": {
-    "G:\\GITHUB SOFT\\ERP\\ERP\\OrganisationSetup\\OrganisationSetup.csproj": {
+    "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GITHUB SOFT\\ERP\\ERP\\OrganisationSetup\\OrganisationSetup.csproj",
+        "projectUniqueName": "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj",
         "projectName": "OrganisationSetup",
-        "projectPath": "G:\\GITHUB SOFT\\ERP\\ERP\\OrganisationSetup\\OrganisationSetup.csproj",
+        "projectPath": "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj",
         "packagesPath": "C:\\Users\\UMAIR\\.nuget\\packages\\",
-        "outputPath": "G:\\GITHUB SOFT\\ERP\\ERP\\OrganisationSetup\\obj\\",
+        "outputPath": "G:\\ERP SOFT\\OrganisationSetup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

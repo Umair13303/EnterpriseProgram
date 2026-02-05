@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GITHUB SOFT\\ERP\\ERP\\IMCClothHouse\\IMCClothHouse.csproj",
+      "projectUniqueName": "G:\\ERP SOFT\\IMCClothHouse\\IMCClothHouse.csproj",
       "projectName": "IMCClothHouse",
-      "projectPath": "G:\\GITHUB SOFT\\ERP\\ERP\\IMCClothHouse\\IMCClothHouse.csproj",
+      "projectPath": "G:\\ERP SOFT\\IMCClothHouse\\IMCClothHouse.csproj",
       "packagesPath": "C:\\Users\\UMAIR\\.nuget\\packages\\",
-      "outputPath": "G:\\GITHUB SOFT\\ERP\\ERP\\IMCClothHouse\\obj\\",
+      "outputPath": "G:\\ERP SOFT\\IMCClothHouse\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IMCClothHouse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+748bb653b400170dd345a7d419de926ce53a1196")]
 [assembly: System.Reflection.AssemblyProductAttribute("IMCClothHouse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IMCClothHouse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
