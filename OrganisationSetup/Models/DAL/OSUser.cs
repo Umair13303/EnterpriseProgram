@@ -11,9 +11,7 @@ public partial class OSUser
 
     public string? Code { get; set; }
 
-    public string? Name { get; set; }
-
-    public string? UserName { get; set; }
+    public string? Description { get; set; }
 
     public string? Password { get; set; }
 
@@ -39,7 +37,7 @@ public partial class OSUser
 
     public int? UpdatedBy { get; set; }
 
-    public int? DocType { get; set; }
+    public int? DocumentType { get; set; }
 
     public int? DocumentStatus { get; set; }
 

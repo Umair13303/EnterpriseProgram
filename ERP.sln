@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganisationSetup", "OrganisationSetup\OrganisationSetup.csproj", "{C5665DB4-CA1A-4D78-A04C-C61FF70816CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMCClothHouse", "IMCClothHouse\IMCClothHouse.csproj", "{5E4C26B5-55BD-4988-96EA-0CA60BA56ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedUI", "SharedUI\SharedUI.csproj", "{9852665B-B5C0-48E9-AEA4-345EAC120F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERPGateway", "ERPGateway\ERPGateway.csproj", "{F5C60E90-3F70-4401-8690-2D02648DD216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{5E4C26B5-55BD-4988-96EA-0CA60BA56ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E4C26B5-55BD-4988-96EA-0CA60BA56ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E4C26B5-55BD-4988-96EA-0CA60BA56ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9852665B-B5C0-48E9-AEA4-345EAC120F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9852665B-B5C0-48E9-AEA4-345EAC120F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9852665B-B5C0-48E9-AEA4-345EAC120F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9852665B-B5C0-48E9-AEA4-345EAC120F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C60E90-3F70-4401-8690-2D02648DD216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C60E90-3F70-4401-8690-2D02648DD216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C60E90-3F70-4401-8690-2D02648DD216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C60E90-3F70-4401-8690-2D02648DD216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

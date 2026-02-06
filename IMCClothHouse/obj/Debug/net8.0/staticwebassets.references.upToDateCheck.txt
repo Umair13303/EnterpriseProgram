@@ -1,0 +1,13 @@
+E:\ERP SOFT\OrganisationSetup\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\OrganisationSetup\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json
+E:\ERP SOFT\SharedUI\obj\Debug\net8.0\staticwebassets.build.json

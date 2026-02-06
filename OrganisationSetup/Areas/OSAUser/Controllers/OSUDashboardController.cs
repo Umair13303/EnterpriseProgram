@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using OrganisationSetup.Models.Enums;
+using SharedUI.Models.Enums;
 
 namespace OrganisationSetup.Areas.OSAUser.Controllers
 {

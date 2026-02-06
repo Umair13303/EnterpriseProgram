@@ -11,7 +11,7 @@ public partial class OSCompany
 
     public string? Code { get; set; }
 
-    public string? CompanyName { get; set; }
+    public string? Description { get; set; }
 
     public int? CountryId { get; set; }
 
@@ -35,7 +35,7 @@ public partial class OSCompany
 
     public int? UpdatedBy { get; set; }
 
-    public int? DocType { get; set; }
+    public int? DocumentType { get; set; }
 
     public int? DocumentStatus { get; set; }
 

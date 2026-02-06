@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using OrganisationSetup.Models;
+using SharedUI.Models;
 
 namespace OrganisationSetup.Controllers
 {

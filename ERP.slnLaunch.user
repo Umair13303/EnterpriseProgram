@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ERPGateway\\ERPGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "OrganisationSetup\\OrganisationSetup.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "IMCClothHouse\\IMCClothHouse.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

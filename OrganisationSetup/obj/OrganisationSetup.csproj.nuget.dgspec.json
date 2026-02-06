@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj": {}
+    "E:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj": {}
   },
   "projects": {
-    "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj": {
+    "E:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj",
+        "projectUniqueName": "E:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj",
         "projectName": "OrganisationSetup",
-        "projectPath": "G:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj",
-        "packagesPath": "C:\\Users\\UMAIR\\.nuget\\packages\\",
-        "outputPath": "G:\\ERP SOFT\\OrganisationSetup\\obj\\",
+        "projectPath": "E:\\ERP SOFT\\OrganisationSetup\\OrganisationSetup.csproj",
+        "packagesPath": "C:\\Users\\Dev-4\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP SOFT\\OrganisationSetup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\UMAIR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev-4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\ERP SOFT\\SharedUI\\SharedUI.csproj": {
+                "projectPath": "E:\\ERP SOFT\\SharedUI\\SharedUI.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -45,12 +49,20 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.Extensions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -91,7 +103,86 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ERP SOFT\\SharedUI\\SharedUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ERP SOFT\\SharedUI\\SharedUI.csproj",
+        "projectName": "SharedUI",
+        "projectPath": "E:\\ERP SOFT\\SharedUI\\SharedUI.csproj",
+        "packagesPath": "C:\\Users\\Dev-4\\.nuget\\packages\\",
+        "outputPath": "E:\\ERP SOFT\\SharedUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dev-4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.Extensions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

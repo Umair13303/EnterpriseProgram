@@ -13,9 +13,7 @@ public partial class OSBranch
 
     public string? Description { get; set; }
 
-    public int? CampusTypeId { get; set; }
-
-    public int? OrganizationTypeId { get; set; }
+    public int? BranchTypeId { get; set; }
 
     public int? CountryId { get; set; }
 
@@ -37,7 +35,7 @@ public partial class OSBranch
 
     public int? UpdatedBy { get; set; }
 
-    public int? DocType { get; set; }
+    public int? DocumentType { get; set; }
 
     public int? DocumentStatus { get; set; }
 
